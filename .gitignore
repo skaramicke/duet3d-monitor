@@ -1,3 +1,10 @@
+# Project specific
+/runtime.log
+/.vscode
+/config.ini
+
+# Generic pythin stuff for some reason:
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
