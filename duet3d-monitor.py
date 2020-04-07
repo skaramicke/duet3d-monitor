@@ -5,7 +5,7 @@ import google
 import googlesay
 import configparser
 
-logging.basicConfig(format='%(asctime)s: %(levelname)s %(message)s', filename="runtime.log", level=logging.INFO)
+logging.basicConfig(format='%(asctime)s: %(levelname)s %(message)s', filename="runtime.log", level=logging.WARN)
 logger = logging.getLogger()
 logger.info('Logging started')
 
